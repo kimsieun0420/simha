@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: rgb(46, 46, 46);
+}
+
+.main {
+    width: 150px;
+    height: 200px;
+    border: 1px solid ;
+    box-sizing: border-box;
+}
+
+.main > p {
+    width: 150px;
+    height: 200px;
+    display: block;
+}
