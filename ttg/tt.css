@@ -1,0 +1,52 @@
+<head><meta charset="utf-8"><title>CSS</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>#jb-container {
+    width: 940px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+}
+
+#jb-header {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #bcbcbc;
+}
+
+#jb-content {
+    width: 580px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid #bcbcbc;
+}
+
+#jb-sidebar {
+    width: 260px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: right;
+    border: 1px solid #bcbcbc;
+}
+
+#jb-footer {
+    clear: both;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+}
+
+/* 가로 해상도가 480px 이하면 
+가로폭이 줄어들고 사이드바 밑으로 내려감 */
+@media (max-width: 1000px) {
+    #jb-container {
+        width: auto;
+    }
+
+    #jb-content {
+        float: none;
+        width: auto;
+    }
+
+    #jb-sidebar {
+        float: none;
+        width: auto;
+    }
+}
